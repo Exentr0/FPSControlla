@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FPControlla.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPControlla.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FPControllaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CustomStateMachine">
+      <UniqueIdentifier>{4DF7F4F4-FF20-3C55-B78A-E39B375124C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CustomStateMachine\HostProject">
+      <UniqueIdentifier>{E6C6E31F-9E7E-3FB5-BB99-2E1B3F021415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CustomStateMachine\HostProject\Plugins">
+      <UniqueIdentifier>{ED1E91E4-F940-3649-8935-916C2EBAC99B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine">
+      <UniqueIdentifier>{07C0C1B3-4461-36FD-BDCD-A9E6EF79609E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source">
+      <UniqueIdentifier>{19139C65-CBA3-3F47-B48A-BC04A77C907F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine">
+      <UniqueIdentifier>{A22FC6DA-1020-3A03-85E5-FE0B81395830}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\CustomStateMachine.Build.cs">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine</Filter>
+    </None>
+    <Filter Include="Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Private">
+      <UniqueIdentifier>{34CBBDEE-0570-3CAE-BDA6-34177C283916}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Private\BaseState.cpp">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Private\CustomStateMachine.cpp">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Private\StateManagerComponent.cpp">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Public">
+      <UniqueIdentifier>{B8F8A914-E87B-33F1-AF38-2052893DA9AB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Public\BaseState.h">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Public\CustomStateMachine.h">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Public\StateManagerComponent.h">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Source\CustomStateMachine\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\CustomStateMachine.uplugin">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine</Filter>
+    </None>
+    <Filter Include="Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Config">
+      <UniqueIdentifier>{95BF65B5-1153-36E7-AABC-3E188F3E5EE4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Config\FilterPlugin.ini">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Config</Filter>
+    </None>
+    <Filter Include="Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Resources">
+      <UniqueIdentifier>{C78D57B2-D70E-30D4-B287-90C33D2128BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Resources\Icon128.png">
+      <Filter>Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Resources</Filter>
+    </None>
+    <Filter Include="Source\FPControlla">
+      <UniqueIdentifier>{DF896E80-6F00-30BE-AFAD-B0645C325527}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacter.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacter.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterBaseState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterBaseState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FPControlla\FPControlla.Build.cs">
+      <Filter>Source\FPControlla</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FPControlla\FPControlla.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPControlla.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPControllaGameModeBase.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPControllaGameModeBase.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPController.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPController.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPControllerInterface.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPControllerInterface.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

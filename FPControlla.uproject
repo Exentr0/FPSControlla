@@ -7,7 +7,12 @@
 		{
 			"Name": "FPControlla",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"CustomStateMachine"
+			]
 		}
 	],
 	"Plugins": [

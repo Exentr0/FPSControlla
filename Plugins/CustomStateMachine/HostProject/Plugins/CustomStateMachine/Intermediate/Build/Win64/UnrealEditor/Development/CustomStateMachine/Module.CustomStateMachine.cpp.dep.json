@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\development\\customstatemachine\\module.customstatemachine.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\intermediate\\build\\win64\\fpcontrollaeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\development\\customstatemachine\\definitions.customstatemachine.h",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\basestate.gen.cpp",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\public\\basestate.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\core\\public\\misc\\optionalfwd.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\basestate.generated.h",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\customstatemachine.init.gen.cpp",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\statemanagercomponent.gen.cpp",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\public\\statemanagercomponent.h",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\statemanagercomponent.generated.h",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\private\\basestate.cpp",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\private\\customstatemachine.cpp",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\public\\customstatemachine.h",
+            "c:\\users\\home 4\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\private\\statemanagercomponent.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
