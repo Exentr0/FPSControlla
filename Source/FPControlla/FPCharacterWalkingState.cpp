@@ -2,4 +2,15 @@
 
 
 #include "FPCharacterWalkingState.h"
+#include "FPCharacter.h"
+#include "GameFramework/PawnMovementComponent.h"
+#include "StateManagerComponent.h"
 
+void UFPCharacterWalkingState::StateTick()
+{
+	Super::StateTick();
+	if (FPCharacterRef->GetMovementComponent()->Velocity == FVector::ZeroVector)
+	{
+		FPCharacterRef->StateManager->SwitchStateByKey("Idle");
+	}
+}

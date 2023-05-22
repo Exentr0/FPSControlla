@@ -14,4 +14,6 @@ class FPCONTROLLA_API UFPCharacterWalkingState : public UFPCharacterMovingState
 {
 	GENERATED_BODY()
 	
+protected:
+	virtual void StateTick() override;
 };

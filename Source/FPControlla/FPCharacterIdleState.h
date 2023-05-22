@@ -14,4 +14,6 @@ class FPCONTROLLA_API UFPCharacterIdleState : public UFPCharacterGroundedState
 {
 	GENERATED_BODY()
 	
+protected:
+	virtual void StateTick() override;
 };

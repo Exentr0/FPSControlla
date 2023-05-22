@@ -7,7 +7,7 @@
 #include "FPController.generated.h"
 
 class UInputMappingContext;
-class InputAction;
+class UInputAction;
 
 UCLASS()
 class FPCONTROLLA_API AFPController : public APlayerController, public IFPControllerInterface
@@ -16,15 +16,30 @@ class FPCONTROLLA_API AFPController : public APlayerController, public IFPContro
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
-		class UInputMappingContext* PlayerMappingContext;
+		UInputMappingContext* PlayerMappingContext;
 	void BindActions(UEnhancedInputComponent* EIC);
 
-	/*Jump*/
+	/* Look */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
-		class UInputAction* JumpAction;
+		UInputAction* LookAction;
+	FLookSignature LookDelegate;
+	void LookInput(const FInputActionValue& Value);
+
+	/*Move*/
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+		UInputAction* MoveAction;
+	FMoveSignature MoveDelegate;
+	void MoveInput(const FInputActionValue& Value);
+
+	/* Jump */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+		UInputAction* JumpAction;
 	FJumpSignature JumpDelegate;
 	void PressJump();
 
 protected:
 	virtual FJumpSignature* GetJumpDelegate() override;
+	virtual FMoveSignature* GetLookDelegate() override;
+	virtual FLookSignature* GetMoveDelegate() override;
+
 };
