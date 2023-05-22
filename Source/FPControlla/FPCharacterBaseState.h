@@ -16,9 +16,9 @@ class FPCONTROLLA_API UFPCharacterBaseState : public UBaseState
 {
 	GENERATED_BODY()
 
-public:
+protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	AFPCharacter* FPCharacter = nullptr;
+	AFPCharacter* FPCharacterRef = nullptr;
 	IFPControllerInterface* FPController = nullptr;
 
 	virtual void OnStateEnter(AActor* StateOwner) override;

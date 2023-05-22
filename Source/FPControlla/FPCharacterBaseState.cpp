@@ -10,9 +10,9 @@ void UFPCharacterBaseState::OnStateEnter(AActor* StateOwner)
 	Super::OnStateEnter(StateOwner);
 	
 	//Save FPCharacter for later
-	if (!FPCharacter)
+	if (!FPCharacterRef)
 	{
-		FPCharacter = Cast<AFPCharacter>(StateOwner);
+		FPCharacterRef = Cast<AFPCharacter>(StateOwner);
 	}
 
 	/*Save Player Controller*/

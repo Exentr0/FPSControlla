@@ -120,6 +120,42 @@
     <ClInclude Include="..\..\Source\FPControlla\FPCharacterBaseState.h">
       <Filter>Source\FPControlla</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterGroundedState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterGroundedState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterIdleState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterIdleState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterJumpingState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterJumpingState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterMovementState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterMovementState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterMovingState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterMovingState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterWalkingState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterWalkingState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
     <None Include="..\..\Source\FPControlla\FPControlla.Build.cs">
       <Filter>Source\FPControlla</Filter>
     </None>
@@ -145,6 +181,12 @@
       <Filter>Source\FPControlla</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FPControlla\FPControllerInterface.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterAirState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterAirState.h">
       <Filter>Source\FPControlla</Filter>
     </ClInclude>
   </ItemGroup>
