@@ -2,8 +2,6 @@
 
 
 #include "FPCharacterJumpingState.h"
-#include "StateManagerComponent.h"
-#include "GameFramework/CharacterMovementComponent.h"
 
 #pragma region BaseState Methodes
 void UFPCharacterJumpingState::OnStateEnter(AActor* OwnerRef)
@@ -14,10 +12,6 @@ void UFPCharacterJumpingState::OnStateEnter(AActor* OwnerRef)
 void UFPCharacterJumpingState::StateTick()
 {
 	Super::StateTick();
-	if (FPCharacterRef->GetMovementComponent()->IsMovingOnGround())
-	{
-		FPCharacterRef->StateManager->SwitchStateByKey("Idle");
-	}
 }
 
 void UFPCharacterJumpingState::OnStateExit()

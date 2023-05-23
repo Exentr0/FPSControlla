@@ -9,8 +9,4 @@
 void UFPCharacterWalkingState::StateTick()
 {
 	Super::StateTick();
-	if (FPCharacterRef->GetMovementComponent()->Velocity == FVector::ZeroVector)
-	{
-		FPCharacterRef->StateManager->SwitchStateByKey("Idle");
-	}
 }

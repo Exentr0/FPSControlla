@@ -5,15 +5,19 @@
 #include "FPCharacter.h"
 #include "GameFramework/PawnMovementComponent.h"
 #include "StateManagerComponent.h"
+#include "Kismet/KismetMathLibrary.h"
 
 #pragma region Base State Methods
+
 
 void UFPCharacterIdleState::StateTick()
 {
 	Super::StateTick();
-	if (FPCharacterRef->GetMovementComponent()->Velocity != FVector::ZeroVector)
+	const FVector Velocity = FPCharacterRef->GetMovementComponent()->Velocity;
+	if (UKismetMathLibrary::Abs(Velocity.X) > 0.0f || UKismetMathLibrary::Abs(Velocity.Y) > 0.0f)
 	{
 		FPCharacterRef->StateManager->SwitchStateByKey("Walking");
 	}
 }
 #pragma endregion
+ 

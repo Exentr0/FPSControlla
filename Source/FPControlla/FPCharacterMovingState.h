@@ -13,5 +13,6 @@ UCLASS()
 class FPCONTROLLA_API UFPCharacterMovingState : public UFPCharacterGroundedState
 {
 	GENERATED_BODY()
-	
+protected:
+	virtual void StateTick() override;
 };

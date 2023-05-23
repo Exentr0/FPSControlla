@@ -14,4 +14,8 @@ class FPCONTROLLA_API UFPCharacterAirState : public UFPCharacterMovementState
 {
 	GENERATED_BODY()
 	
+protected:
+	virtual void OnStateEnter(AActor* OwnerRef) override;
+	virtual void StateTick() override;
+	virtual void OnStateExit() override;
 };

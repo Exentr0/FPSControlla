@@ -3,11 +3,11 @@
 
 #include "FPCharacterGroundedState.h"
 #include "StateManagerComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 void UFPCharacterGroundedState::Jump()
 {
 	FPCharacterRef->Jump();
-	FPCharacterRef->StateManager->SwitchStateByKey("Jumping");
 }
 
 #pragma region BaseState Methodes
@@ -25,6 +25,10 @@ void UFPCharacterGroundedState::OnStateEnter(AActor* OwnerRef)
 void UFPCharacterGroundedState::StateTick()
 {
 	Super::StateTick();
+	if(!FPCharacterRef->GetMovementComponent()->IsMovingOnGround())
+	{
+		FPCharacterRef->StateManager->SwitchStateByKey("Jumping");
+	}
 }
 
 void UFPCharacterGroundedState::OnStateExit()
