@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\customstatemachine\\module.customstatemachine.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\intermediate\\build\\win64\\x64\\fpcontrollaeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\customstatemachine\\definitions.customstatemachine.h",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\basestate.gen.cpp",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\public\\basestate.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\basestate.generated.h",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\customstatemachine.init.gen.cpp",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\statemanagercomponent.gen.cpp",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\public\\statemanagercomponent.h",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\customstatemachine\\uht\\statemanagercomponent.generated.h",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\private\\basestate.cpp",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\private\\customstatemachine.cpp",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\public\\customstatemachine.h",
+            "c:\\users\\user\\desktop\\tutorials\\fpscontrolla\\plugins\\customstatemachine\\hostproject\\plugins\\customstatemachine\\source\\customstatemachine\\private\\statemanagercomponent.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

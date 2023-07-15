@@ -33,6 +33,7 @@ void UFPCharacterMovementState::Move(const FInputActionValue& Value)
 void UFPCharacterMovementState::OnStateEnter(AActor* OwnerRef)
 {
 	Super::OnStateEnter(OwnerRef);
+
 	if (FPController)
 	{
 		FPController->GetLookDelegate()->AddUObject(this, &UFPCharacterMovementState::Look);

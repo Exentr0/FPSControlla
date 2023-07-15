@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\FPControlla.uproject" />
@@ -114,6 +114,12 @@
     <ClInclude Include="..\..\Source\FPControlla\FPCharacter.h">
       <Filter>Source\FPControlla</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterAirState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterAirState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FPControlla\FPCharacterBaseState.cpp">
       <Filter>Source\FPControlla</Filter>
     </ClCompile>
@@ -181,12 +187,6 @@
       <Filter>Source\FPControlla</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FPControlla\FPControllerInterface.h">
-      <Filter>Source\FPControlla</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FPControlla\FPCharacterAirState.cpp">
-      <Filter>Source\FPControlla</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPControlla\FPCharacterAirState.h">
       <Filter>Source\FPControlla</Filter>
     </ClInclude>
   </ItemGroup>
