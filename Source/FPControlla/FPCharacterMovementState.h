@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "FPCharacterBaseState.h"
 #include "InputActionValue.h"
+#include "Kismet/GameplayStatics.h"
 #include "FPCharacterMovementState.generated.h"
 
 /**

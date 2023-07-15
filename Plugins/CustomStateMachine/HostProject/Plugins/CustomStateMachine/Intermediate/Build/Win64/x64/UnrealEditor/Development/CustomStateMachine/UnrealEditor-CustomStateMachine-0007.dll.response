@@ -33,9 +33,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"C:\Users\User\Desktop\tutorials\FPSControlla-main\Intermediate\Build\Win64\x64\FPControllaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
-"C:\Users\User\Desktop\tutorials\FPSControlla-main\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Intermediate\Build\Win64\x64\UnrealEditor\Development\CustomStateMachine\Module.CustomStateMachine.cpp.obj"
-"C:\Users\User\Desktop\tutorials\FPSControlla-main\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Intermediate\Build\Win64\x64\UnrealEditor\Development\CustomStateMachine\Default.rc2.res"
+"C:\Users\User\Desktop\tutorials\FPSControlla\Intermediate\Build\Win64\x64\FPControllaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Users\User\Desktop\tutorials\FPSControlla\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Intermediate\Build\Win64\x64\UnrealEditor\Development\CustomStateMachine\Module.CustomStateMachine.cpp.obj"
+"C:\Users\User\Desktop\tutorials\FPSControlla\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Intermediate\Build\Win64\x64\UnrealEditor\Development\CustomStateMachine\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\UnrealEditor-Slate.lib"
@@ -65,7 +65,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\User\Desktop\tutorials\FPSControlla-main\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Binaries\Win64\UnrealEditor-CustomStateMachine-0007.dll"
-/IMPLIB:"C:\Users\User\Desktop\tutorials\FPSControlla-main\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Intermediate\Build\Win64\x64\UnrealEditor\Development\CustomStateMachine\UnrealEditor-CustomStateMachine-0007.suppressed.lib"
-/PDB:"C:\Users\User\Desktop\tutorials\FPSControlla-main\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Binaries\Win64\UnrealEditor-CustomStateMachine-0007.pdb"
+/OUT:"C:\Users\User\Desktop\tutorials\FPSControlla\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Binaries\Win64\UnrealEditor-CustomStateMachine-0007.dll"
+/IMPLIB:"C:\Users\User\Desktop\tutorials\FPSControlla\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Intermediate\Build\Win64\x64\UnrealEditor\Development\CustomStateMachine\UnrealEditor-CustomStateMachine-0007.suppressed.lib"
+/PDB:"C:\Users\User\Desktop\tutorials\FPSControlla\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Binaries\Win64\UnrealEditor-CustomStateMachine-0007.pdb"
 /ignore:4078

@@ -7,7 +7,11 @@
 
 void UFPCharacterGroundedState::Jump()
 {
-	FPCharacterRef->Jump();
+	if (FPCharacterRef->CanJump)
+	{
+		FPCharacterRef->CanJump = false;
+		FPCharacterRef->Jump();
+	}
 }
 
 #pragma region BaseState Methodes

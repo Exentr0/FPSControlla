@@ -3,6 +3,7 @@
 
 #include "FPCharacterAirState.h"
 #include "StateManagerComponent.h"
+#include "FPCharacter.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 #pragma region BaseState Methodes
@@ -16,7 +17,17 @@ void UFPCharacterAirState::StateTick()
 	Super::StateTick();
 	if (FPCharacterRef->GetMovementComponent()->IsMovingOnGround())
 	{
-		FPCharacterRef->StateManager->SwitchStateByKey("Idle");
+        FVector characterVelocity = FPCharacterRef->GetCharacterMovement()->Velocity;
+        float verticalVelocity = characterVelocity.Z;
+
+        if (verticalVelocity < -20.0f)
+        {
+            FPCharacterRef->StateManager->SwitchStateByKey("MidLanding");
+        }
+        else
+        {
+            FPCharacterRef->StateManager->SwitchStateByKey("LightLanding");
+        }
 	}
 }
 

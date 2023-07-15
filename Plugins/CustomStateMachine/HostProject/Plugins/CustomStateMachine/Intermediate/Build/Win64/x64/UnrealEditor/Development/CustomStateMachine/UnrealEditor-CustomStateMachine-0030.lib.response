@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CustomStateMachine-0030.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\User\Desktop\tutorials\FPSControlla\Intermediate\Build\Win64\x64\FPControllaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Users\User\Desktop\tutorials\FPSControlla\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Intermediate\Build\Win64\x64\UnrealEditor\Development\CustomStateMachine\Module.CustomStateMachine.cpp.obj"
+"C:\Users\User\Desktop\tutorials\FPSControlla\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Intermediate\Build\Win64\x64\UnrealEditor\Development\CustomStateMachine\Default.rc2.res"
+/OUT:"C:\Users\User\Desktop\tutorials\FPSControlla\Plugins\CustomStateMachine\HostProject\Plugins\CustomStateMachine\Intermediate\Build\Win64\x64\UnrealEditor\Development\CustomStateMachine\UnrealEditor-CustomStateMachine-0030.lib"

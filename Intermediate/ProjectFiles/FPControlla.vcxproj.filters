@@ -144,6 +144,24 @@
     <ClInclude Include="..\..\Source\FPControlla\FPCharacterJumpingState.h">
       <Filter>Source\FPControlla</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterLandingState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterLandingState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterLightLandingState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterLightLandingState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterMidLandingState.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterMidLandingState.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FPControlla\FPCharacterMovementState.cpp">
       <Filter>Source\FPControlla</Filter>
     </ClCompile>

@@ -3,6 +3,8 @@
 
 #include "FPCharacterMovementState.h"
 #include "InputActionValue.h"
+#include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "FPCharacter.h"
 
 
@@ -18,14 +20,12 @@ void UFPCharacterMovementState::Look(const FInputActionValue& Value)
 
 void UFPCharacterMovementState::Move(const FInputActionValue& Value)
 {
-	{
-		const FVector2D MoveInputVector = Value.Get<FVector2D>();
+	FVector2D MoveInputVector = Value.Get<FVector2D>();
 
-		if (MoveInputVector != FVector2D::ZeroVector)
-		{
-			FPCharacterRef->AddMovementInput(FPCharacterRef->GetActorForwardVector(), MoveInputVector.Y * MoveSpeed * GetWorld()->GetDeltaSeconds());
-			FPCharacterRef->AddMovementInput(FPCharacterRef->GetActorRightVector(), MoveInputVector.X * MoveSpeed * GetWorld()->GetDeltaSeconds());
-		}
+	if (MoveInputVector != FVector2D::ZeroVector)
+	{
+		FPCharacterRef->AddMovementInput(FPCharacterRef->GetActorForwardVector(), MoveInputVector.Y * MoveSpeed * GetWorld()->GetDeltaSeconds());
+		FPCharacterRef->AddMovementInput(FPCharacterRef->GetActorRightVector(), MoveInputVector.X * MoveSpeed * GetWorld()->GetDeltaSeconds());
 	}
 }
 
@@ -57,4 +57,3 @@ void UFPCharacterMovementState::OnStateExit()
 	}
 }
 #pragma endregion
-
