@@ -1,5 +1,11 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "FPCharacterLightLandingState.h"
+#include "FPCharacterLandingState.h"
+#include "FPCharacter.h"
+#include "FPCharacterMovementData.h"
 
+
+void UFPCharacterLightLandingState::OnStateEnter(AActor* OwnerRef)
+{
+	Super::OnStateEnter(OwnerRef);
+	LandingDuration = FPCharacterRef->MovementData->LightLandingDuration;
+}

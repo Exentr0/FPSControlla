@@ -5,6 +5,7 @@
 #include "InputActionValue.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "FPCharacterMovementData.h"
 #include "FPCharacter.h"
 
 
@@ -13,8 +14,8 @@ void UFPCharacterMovementState::Look(const FInputActionValue& Value)
 	const FVector2D LookAxisVector = Value.Get<FVector2D>();
 	if (LookAxisVector != FVector2D::ZeroVector)
 	{
-		FPCharacterRef->AddControllerPitchInput(LookAxisVector.X * LookSensitivity * GetWorld()->GetDeltaSeconds());
-		FPCharacterRef->AddControllerYawInput(LookAxisVector.Y * LookSensitivity * GetWorld()->GetDeltaSeconds());
+		FPCharacterRef->AddControllerPitchInput(LookAxisVector.X * FPCharacterRef->MovementData->LookSensitivity * GetWorld()->GetDeltaSeconds());
+		FPCharacterRef->AddControllerYawInput(LookAxisVector.Y * FPCharacterRef->MovementData->LookSensitivity * GetWorld()->GetDeltaSeconds());
 	}
 }
 

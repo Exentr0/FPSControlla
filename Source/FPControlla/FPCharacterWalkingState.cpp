@@ -1,10 +1,13 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "FPCharacterWalkingState.h"
 #include "FPCharacter.h"
-#include "GameFramework/PawnMovementComponent.h"
+#include "FPCharacterMovementData.h"
 #include "StateManagerComponent.h"
+
+void UFPCharacterWalkingState::OnStateEnter(AActor* OwnerRef)
+{
+	Super::OnStateEnter(OwnerRef);
+	MoveSpeed = FPCharacterRef->MovementData->WalkingMoveSpeed;
+}
 
 void UFPCharacterWalkingState::StateTick()
 {

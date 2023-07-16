@@ -1,5 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "FPCharacterMidLandingState.h"
+#include "FPCharacter.h"
+#include "FPCharacterMovementData.h"
 
+void UFPCharacterMidLandingState::OnStateEnter(AActor* OwnerRef)
+{
+	Super::OnStateEnter(OwnerRef);
+	LandingDuration = FPCharacterRef->MovementData->MidLandingDuration;
+}

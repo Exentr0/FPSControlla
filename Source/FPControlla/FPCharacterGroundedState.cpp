@@ -3,13 +3,14 @@
 
 #include "FPCharacterGroundedState.h"
 #include "StateManagerComponent.h"
+#include "FPCharacterMovementData.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 void UFPCharacterGroundedState::Jump()
 {
-	if (FPCharacterRef->CanJump)
+	if (FPCharacterRef->MovementData->CanJump)
 	{
-		FPCharacterRef->CanJump = false;
+		FPCharacterRef->MovementData->CanJump = false;
 		FPCharacterRef->Jump();
 	}
 }

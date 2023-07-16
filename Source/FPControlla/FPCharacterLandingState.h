@@ -12,7 +12,6 @@ class FPCONTROLLA_API UFPCharacterLandingState : public UFPCharacterGroundedStat
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Move")
 	float LandingDuration = 0.3f;
 
 protected:

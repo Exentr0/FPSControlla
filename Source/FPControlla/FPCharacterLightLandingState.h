@@ -6,12 +6,11 @@
 #include "FPCharacterLandingState.h"
 #include "FPCharacterLightLandingState.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class FPCONTROLLA_API UFPCharacterLightLandingState : public UFPCharacterLandingState
 {
 	GENERATED_BODY()
-	
+
+protected:	
+	virtual void OnStateEnter(AActor* OwnerRef) override;
 };

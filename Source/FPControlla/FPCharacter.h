@@ -5,6 +5,9 @@
 #include "InputActionValue.h"
 #include "FPCharacter.generated.h"
 
+// Forward declaration of UFPCharacterMovementData to avoid circular dependency
+class UFPCharacterMovementData;
+
 UCLASS()
 class FPCONTROLLA_API AFPCharacter : public ACharacter
 {
@@ -21,12 +24,13 @@ protected:
 public:
 	//Variables
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	class UStateManagerComponent* StateManager;
+		class UStateManagerComponent* StateManager;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
+		UFPCharacterMovementData* MovementData;
 
 	//Functions
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	bool CanJump = true;
 };

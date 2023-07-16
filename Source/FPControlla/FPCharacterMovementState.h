@@ -17,11 +17,7 @@ class FPCONTROLLA_API UFPCharacterMovementState : public UFPCharacterBaseState
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Look", meta = (ClampMin = "0.01", UIMin = "0.01"))
-		float LookSensitivity = 5.0f;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Move")
-		float MoveSpeed = 60.0f;
-
+	float MoveSpeed = 60.0f;
 protected:
 	virtual void OnStateEnter(AActor* OwnerRef) override;
 	virtual void StateTick() override;

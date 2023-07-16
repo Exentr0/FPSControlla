@@ -1,6 +1,7 @@
 #include "FPCharacter.h"
 #include "GameFramework/PawnMovementComponent.h"
 #include "StateManagerComponent.h"
+#include "FPCharacterMovementData.h"
 #include "FPCharacterLandingState.h"
 
 void UFPCharacterLandingState::LandingFinished()
@@ -30,6 +31,6 @@ void UFPCharacterLandingState::StateTick()
 void UFPCharacterLandingState::OnStateExit()
 {
 	Super::OnStateExit();
-	FPCharacterRef->CanJump = true;
+	FPCharacterRef->MovementData->CanJump = true;
 }
 #pragma endregion

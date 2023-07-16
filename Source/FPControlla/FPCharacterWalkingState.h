@@ -6,9 +6,7 @@
 #include "FPCharacterMovingState.h"
 #include "FPCharacterWalkingState.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class FPCONTROLLA_API UFPCharacterWalkingState : public UFPCharacterMovingState
 {
@@ -16,4 +14,5 @@ class FPCONTROLLA_API UFPCharacterWalkingState : public UFPCharacterMovingState
 	
 protected:
 	virtual void StateTick() override;
+	virtual void OnStateEnter(AActor* OwnerRef) override;
 };

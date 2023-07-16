@@ -5,6 +5,7 @@
 #include "StateManagerComponent.h"
 #include "FPCharacter.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "FPCharacterMovementData.h"
 
 #pragma region BaseState Methodes
 void UFPCharacterAirState::OnStateEnter(AActor* OwnerRef)
@@ -20,7 +21,7 @@ void UFPCharacterAirState::StateTick()
         FVector characterVelocity = FPCharacterRef->GetCharacterMovement()->Velocity;
         float verticalVelocity = characterVelocity.Z;
 
-        if (verticalVelocity < -20.0f)
+        if (verticalVelocity < FPCharacterRef->MovementData->LandStateVelocityThreshold)
         {
             FPCharacterRef->StateManager->SwitchStateByKey("MidLanding");
         }

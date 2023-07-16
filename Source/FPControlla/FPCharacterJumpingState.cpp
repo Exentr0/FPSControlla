@@ -2,6 +2,7 @@
 #include "FPCharacter.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "StateManagerComponent.h"
+#include "FPCharacterMovementData.h"
 
 #pragma region BaseState Methods
 
@@ -23,7 +24,7 @@ void UFPCharacterJumpingState::StateTick()
     if (FPCharacterRef->GetMovementComponent()->Velocity.Z <= 0 && reachedJumpApex == false)
     {
         reachedJumpApex = true;
-        FPCharacterRef->GetCharacterMovement()->GravityScale *= GravityScaleMultiplier;
+        FPCharacterRef->GetCharacterMovement()->GravityScale *= FPCharacterRef->MovementData->GravityScaleMultiplier;
     }
 }
 

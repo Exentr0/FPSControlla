@@ -8,8 +8,6 @@
 #include "Kismet/KismetMathLibrary.h"
 
 #pragma region Base State Methods
-
-
 void UFPCharacterIdleState::StateTick()
 {
 	Super::StateTick();

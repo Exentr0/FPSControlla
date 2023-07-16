@@ -11,10 +11,6 @@ class FPCONTROLLA_API UFPCharacterJumpingState : public UFPCharacterAirState
 {
 	GENERATED_BODY()
 
-public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Jumping")
-		float GravityScaleMultiplier = 2.0f;
-
 protected:
 	virtual void OnStateEnter(AActor* OwnerRef) override;
 	virtual void StateTick() override;

@@ -162,6 +162,12 @@
     <ClInclude Include="..\..\Source\FPControlla\FPCharacterMidLandingState.h">
       <Filter>Source\FPControlla</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FPControlla\FPCharacterMovementData.cpp">
+      <Filter>Source\FPControlla</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPControlla\FPCharacterMovementData.h">
+      <Filter>Source\FPControlla</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FPControlla\FPCharacterMovementState.cpp">
       <Filter>Source\FPControlla</Filter>
     </ClCompile>
